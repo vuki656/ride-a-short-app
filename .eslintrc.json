@@ -9,6 +9,9 @@
     "parserOptions": {
         "project": "./tsconfig.json"
     },
+    "rules": {
+        "react-native/no-raw-text": "off"
+    },
     "settings": {
         "import/ignore": [
             "node_modules/react-native/index\\.js$"
